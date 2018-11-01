@@ -10,14 +10,14 @@
         TextElement.FontSize="13"
         TextOptions.TextFormattingMode="Ideal"
         TextOptions.TextRenderingMode="Auto"
-        Title="Login" Height="500" Width="700" WindowStartupLocation="CenterScreen"
+        Title="Login" Height="600" Width="700" WindowStartupLocation="CenterScreen"
         Background="{DynamicResource MaterialDesignPaper}"
-        TextElement.Foreground="{DynamicResource MaterialDesignBody}">
-    <Grid
-        
-        Background="AliceBlue">
-        <materialDesign:Card
-  Width="300" Margin="100">
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}" WindowState="Maximized">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="image/bg_login.jpg"/>
+        </Grid.Background>
+        <materialDesign:Card  Width="300" Margin="10 200 0 0 " Opacity="0.9">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50" />
